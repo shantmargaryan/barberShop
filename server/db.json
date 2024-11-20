@@ -1,0 +1,77 @@
+{
+    "Hero": {
+        "background": "img/HeroBg1.jpeg",
+        "title": "more than just a men’s hairdresser",
+        "text": "Finest barbers make your first impression count.",
+        "Contact": [
+            {
+                "id": 1,
+                "title": "Opening Hours",
+                "openDay": "Monday – Sunday: 11:00 am – 8:00 pm"
+            },
+            {
+                "id": 2,
+                "title": "booking number",
+                "phoneNumber": "+844 - 946 888 3355"
+            },
+            {
+                "id": 3,
+                "title": "location",
+                "address": "10 West Chestnut Ave, Clarksburg"
+            }
+        ]
+    },
+    "HireCut": {
+        "CutStyle": [
+            {
+                "id": 1,
+                "background": "img/HairCut.jpeg",
+                "cut": "Style & Mastership",
+                "title": "haircut"
+            },
+            {
+                "id": 2,
+                "background": "img/RoyalShaving.jpeg",
+                "cut": "For Connoisseurs",
+                "title": "Royal Shaving"
+            },
+            {
+                "id": 3,
+                "background": "img/BeardStyling.jpeg",
+                "cut": "Best Professionals",
+                "title": "Beard styling"
+            },
+            {
+                "id": 4,
+                "background": "img/Barber-Spa.jpeg",
+                "cut": "Comprehensive Care",
+                "title": "Barber-Spa"
+            }
+        ]
+    },
+    "HomeAbout": {
+        "subtitle": "about",
+        "title": "WE BELIEVE THAT REAL MEN NEED REAL HAIRCUTS",
+        "text": "“Barbering is a craft and one of the oldest professions in the world. It’s not only a job. It’s a way of living.”",
+        "List": [
+            {
+                "id": 1,
+                "icon": "img/svg/FREECoffee.svg",
+                "title": "FREE Coffee",
+                "text": "You will always be offered a cup of coffee or a glass of soda"
+            },
+            {
+                "id": 2,
+                "icon": "img/svg/ServiceGuarantee.svg",
+                "title": "Service Guarantee",
+                "text": "You will always be offered a cup of coffee or a glass of soda"
+            },
+            {
+                "id": 3,
+                "icon": "img/svg/Towel.svg",
+                "title": "Hot Towel Finish",
+                "text": "You will always be offered a cup of coffee or a glass of soda"
+            }
+        ]
+    }
+}

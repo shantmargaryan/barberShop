@@ -15,7 +15,7 @@ import { fetcher } from "../../Helpers/fetcher"
 
 function HomeAbout() {
     const { data, error } = useSWR("http://localhost:3000/HomeAbout", fetcher)
-    // if (error) return <div>failed to load</div>
+    if (error) return <div>failed to load</div>
     return (
         <HomeAboutSection>
             <HomeAboutContainer>

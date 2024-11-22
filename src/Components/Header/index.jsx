@@ -17,8 +17,6 @@ import Overlay from "../../Utils/Overlay"
 import useNav from "./useNav"
 import CloseIcon from '@mui/icons-material/Close';
 
-//hello world: this comment 
-
 function Header() {
     const { setNavIsOpen, navIsOpen } = useNav()
     const { setIsShow, setIsHide } = useOverlay()

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Section, Container, Title, Text, Subtitle } from "../../styled/mixStyle";
-import { ListReset } from "../../styled/reset";
+import { ListReset, Img } from "../../styled/reset";
 
 
 
@@ -10,6 +10,8 @@ ${Section}
 
 export const HomeAboutContainer = styled.div`
 ${Container}
+position: relative;
+isolation: isolate;
 display: flex;
 flex-direction: column;
 gap: 20px;
@@ -65,4 +67,13 @@ gap: 30px;
 &:not(:last-child) {
     margin-block-end: 2em;
 }
+`
+
+export const RazorImg = styled.img`
+${Img}
+max-width: 300px;
+position: absolute;
+right: 0;
+top: -15em;
+z-index: -1;
 `

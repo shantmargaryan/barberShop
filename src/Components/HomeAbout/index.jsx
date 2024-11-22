@@ -8,7 +8,8 @@ import {
     SmallTitle,
     SmallText,
     List,
-    Item
+    Item,
+    RazorImg
 } from "./styled"
 import useSWR from "swr"
 import { fetcher } from "../../Helpers/fetcher"
@@ -16,6 +17,7 @@ import { fetcher } from "../../Helpers/fetcher"
 function HomeAbout() {
     const { data, error } = useSWR("http://localhost:3000/HomeAbout", fetcher)
     if (error) return <div>failed to load</div>
+
     return (
         <HomeAboutSection>
             <HomeAboutContainer>
@@ -57,6 +59,7 @@ function HomeAbout() {
                         ))
                     }
                 </List>
+                <RazorImg src="img/razor.png" alt="razor" />
             </HomeAboutContainer>
         </HomeAboutSection>
     )

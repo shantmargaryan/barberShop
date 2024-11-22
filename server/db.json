@@ -73,5 +73,30 @@
                 "text": "You will always be offered a cup of coffee or a glass of soda"
             }
         ]
+    },
+    "WorkingHours": {
+        "background": "img/WorkingHoursBg.png",
+        "img": "img/Salon.png",
+        "subtitle": "working hours",
+        "title": "Opening Hours",
+        "OpenDays": [
+            {
+                "id": 1,
+                "daysOfTheWeek": "mon - fri",
+                "hours": "11 am – 7:30 pm"
+            },
+            {
+                "id": 2,
+                "daysOfTheWeek": "sat",
+                "hours": "12 am – 8:30 pm"
+            },
+            {
+                "id": 3,
+                "daysOfTheWeek": "sun",
+                "hours": "1 pm – 7 pm"
+            }
+        ],
+        "number": "booking number",
+        "phoneNumber": "+844 - 946 888 3355"
     }
 }

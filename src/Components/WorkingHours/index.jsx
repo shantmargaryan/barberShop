@@ -18,7 +18,7 @@ function WorkingHours() {
 
     const { data, error } = useSWR("http://localhost:3000/WorkingHours", fetcher)
     if (error) return <div>failed to load</div>
-//     console.log(data);
+
     return (
         <WorkingHoursSection style={{ backgroundImage: `url(${data?.background})` }}>
             <WorkingHoursContainer>

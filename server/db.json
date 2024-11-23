@@ -98,5 +98,107 @@
         ],
         "number": "booking number",
         "phoneNumber": "+844 - 946 888 3355"
+    },
+    "Pricing": {
+        "background": "img/HomePricingBg.png",
+        "subtitle": "pricing",
+        "title": "our prices",
+        "img": "img/HomePricingImg.png",
+        "StylingServices": [
+            {
+                "id": 1,
+                "title": "Classic Cut",
+                "text": "Style cut, hairline tidy up & hot towel finish.",
+                "price": "$15"
+            },
+            {
+                "id": 2,
+                "title": "BUzz Cut",
+                "text": "All over clipper cut, hairline tidy up & hot towel fin",
+                "price": "$20"
+            },
+            {
+                "id": 3,
+                "title": "Soon To Be",
+                "text": "Man Kids style cut, hairline tidy up & hot towel fin",
+                "price": "$25"
+            },
+            {
+                "id": 4,
+                "title": "Clean Up",
+                "text": "Straight razor shave and styling for beards",
+                "price": "$30"
+            },
+            {
+                "id": 5,
+                "title": "Polish Up",
+                "text": "Moustache, beard trim and tidy up using trimmers.",
+                "price": "$12"
+            }
+        ],
+        "Shaving": [
+            {
+                "id": 1,
+                "title": "Brow wax",
+                "text": "Man Kids style cut, hairline tidy up & hot towel fin",
+                "price": "$25"
+            },
+            {
+                "id": 2,
+                "title": "Clean Up",
+                "text": "Straight razor shave and styling for beards",
+                "price": "$30"
+            },
+            {
+                "id": 3,
+                "title": "Polish Up",
+                "text": "Style cut, hairline tidy up & hot towel finish.",
+                "price": "$18"
+            },
+            {
+                "id": 4,
+                "title": "BUzz Cut",
+                "text": "All over clipper cut, hairline tidy up & hot towel fin",
+                "price": "$25"
+            },
+            {
+                "id": 5,
+                "title": "Soon To Be",
+                "text": "Moustache, beard trim and tidy up using trimmers.",
+                "price": "$15"
+            }
+        ],
+        "Wellbeing": [
+            {
+                "id": 1,
+                "title": "BUzz Cut",
+                "text": "All over clipper cut, hairline tidy up & hot towel fin",
+                "price": "$30"
+            },
+            {
+                "id": 2,
+                "title": "Polish Up",
+                "text": "Moustache, beard trim and tidy up using trimmers.",
+                "price": "$30"
+            },
+            {
+                "id": 3,
+                "title": "Clean Up",
+                "text": "Man Kids style cut, hairline tidy up & hot towel fin",
+                "price": "$25"
+            },
+            {
+                "id": 4,
+                "title": "Brow wax",
+                "text": "Straight razor shave and styling for beards",
+                "price": "$20"
+            },
+            {
+                "id": 5,
+                "title": "Soon To Be",
+                "text": "Style cut, hairline tidy up & hot towel finish.",
+                "price": "$25"
+            }
+        ]
     }
 }

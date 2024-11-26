@@ -3,6 +3,7 @@ import HireCut from "../Components/HireCut"
 import HomeAbout from "../Components/HomeAbout"
 import WorkingHours from "../Components/WorkingHours"
 import Pricing from "../Components/Pricing"
+import Clients from "../Components/Clients"
 function Home() {
     return (
         <>
@@ -11,6 +12,7 @@ function Home() {
             <HomeAbout />
             <WorkingHours/>
             <Pricing/>
+            <Clients/>
         </>
     )
 }

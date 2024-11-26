@@ -200,5 +200,49 @@
                 "price": "$25"
             }
         ]
-    }
+    },
+    "ClientsSay": [
+        {
+            "id": 1,
+            "subtitle": "what clients say",
+            "title": "Customer Reviews",
+            "text": "I have been going to The Barbers for over a dozen years,you’re getting an experience.The con-venience and atmosphere got me in the door and the friendly staff keep me coming back.",
+            "name": "ron black",
+            "experience": "23 years old"
+        },
+        {
+            "id": 2,
+            "subtitle": "what clients say",
+            "title": "Customer Reviews",
+            "text": "I have been going to The Barbers for over a dozen years,you’re getting an experience.The con-venience and atmosphere got me in the door and the friendly staff keep me coming back.",
+            "name": "ron black",
+            "experience": "23 years old"
+        },
+        {
+            "id": 3,
+            "subtitle": "what clients say",
+            "title": "Customer Reviews",
+            "text": "I have been going to The Barbers for over a dozen years,you’re getting an experience.The con-venience and atmosphere got me in the door and the friendly staff keep me coming back.",
+            "name": "ron black",
+            "experience": "23 years old"
+        }
+    ],
+    "HireCutsImg":[
+        {
+            "id":1,
+            "img":"img/HireCutsImg1.jpg"
+        },
+        {
+            "id":2,
+            "img":"img/HireCutsImg2.jpg"
+        },
+        {
+            "id":3,
+            "img":"img/HireCutsImg3.jpg"
+        },
+        {
+            "id":4,
+            "img":"img/HireCutsImg4.jpg"
+        }
+    ]
 }

@@ -227,22 +227,52 @@
             "experience": "23 years old"
         }
     ],
-    "HireCutsImg":[
+    "HireCutsImg": [
         {
-            "id":1,
-            "img":"img/HireCutsImg1.jpg"
+            "id": 1,
+            "img": "img/HireCutsImg1.jpg"
         },
         {
-            "id":2,
-            "img":"img/HireCutsImg2.jpg"
+            "id": 2,
+            "img": "img/HireCutsImg2.jpg"
         },
         {
-            "id":3,
-            "img":"img/HireCutsImg3.jpg"
+            "id": 3,
+            "img": "img/HireCutsImg3.jpg"
         },
         {
-            "id":4,
-            "img":"img/HireCutsImg4.jpg"
+            "id": 4,
+            "img": "img/HireCutsImg4.jpg"
         }
-    ]
+    ],
+    "Footer": {
+        "title": "customer Services",
+        "List": [
+            {
+                "id": 1,
+                "text": "Haircuts"
+            },
+            {
+                "id": 2,
+                "text": "Moustache And Beard"
+            },
+            {
+                "id": 3,
+                "text": "Straight Razor Shaving"
+            },
+            {
+                "id": 4,
+                "text": "Royal Shave"
+            }
+        ],
+        "Content": {
+            "title": "The Barbershop network",
+            "text": "Babero is a lot more than just a man’s hairdress-er, it is even far more than a social club for men, it is exactly the place where you will find yourself and your identity."
+        },
+        "VisitUs": {
+            "title": "visit us",
+            "address":"7265 Queen Lane Wethersfield, CT 06109",
+            "openHours":"Mon – sat : 7:00am – 8:00pm Sunday : Closed"
+        }
+    }
 }

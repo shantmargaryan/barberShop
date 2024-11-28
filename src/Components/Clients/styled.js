@@ -54,6 +54,8 @@ ${Text}
 max-width: 750px;
 margin-inline: auto;
 margin-block-end: 50px;
+font-size: clamp(1rem, 3vw, 2rem);
+line-height: 150%;
 `
 
 export const Name = styled.span`

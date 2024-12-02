@@ -5,11 +5,11 @@ export const Main = styled.main`
 min-height: 100%;
 `
 
-export const Section = css`
+export const Section = styled.section`
     margin-block-end: 15%;
 `
 
-export const Container = css`
+export const Container = styled.div`
 max-width: ${({ theme }) => theme.container.width}px;
 padding-inline: ${({ theme }) => theme.container.offset}px;
 margin-inline: auto;

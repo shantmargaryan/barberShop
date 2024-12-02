@@ -4,11 +4,10 @@ import { ListReset, Img } from "../../styled/reset";
 
 
 
-export const HomeAboutSection = styled.section`
-${Section}
+export const HomeAboutSection = styled(Section)`
 `
 
-export const HomeAboutContainer = styled.div`
+export const HomeAboutContainer = styled(Container)`
 ${Container}
 position: relative;
 isolation: isolate;

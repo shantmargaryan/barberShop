@@ -2,8 +2,7 @@ import styled from "styled-components";
 import { Section, Container, Subtitle, Title } from "../../styled/mixStyle";
 import { Img } from "../../styled/reset";
 
-export const PricingSection = styled.section`
-${Section}
+export const PricingSection = styled(Section)`
 position: relative;
 isolation: isolate;
 padding-block: 20%;
@@ -17,8 +16,7 @@ padding-block: 20%;
 }
 `
 
-export const PricingContainer = styled.div`
-${Container}
+export const PricingContainer = styled(Container)`
 display: flex;
 flex-direction: column;
 gap: 20px;

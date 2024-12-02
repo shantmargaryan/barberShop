@@ -13,8 +13,7 @@ export const WrapperHeader = styled.header`
     padding-inline-end: ${({ headerPaddingRight, navIsOpen }) => navIsOpen ? `${headerPaddingRight}px` : "0"};
 `
 
-export const HeaderContainer = styled.div`
-${Container}
+export const HeaderContainer = styled(Container)`
     display: flex;
     justify-content: space-between;
     align-items: center;

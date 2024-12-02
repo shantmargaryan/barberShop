@@ -71,7 +71,6 @@ function Hero() {
                     </List>
                 </HeroContainer>
             </Background>
-
         </HeroSection>
     )
 }

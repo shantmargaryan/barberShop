@@ -3,14 +3,12 @@ import { Section, Container, Title, Subtitle } from "../../styled/mixStyle";
 import { ListReset, Img, LinkReset } from "../../styled/reset";
 
 
-export const WorkingHoursSection = styled.section`
-${Section}
+export const WorkingHoursSection = styled(Section)`
 position: relative;
 padding-block-start: 15%;
 `
 
-export const WorkingHoursContainer = styled.div`
-${Container}
+export const WorkingHoursContainer = styled(Container)`
 display: flex;
 flex-direction: column;
 gap: 20px;

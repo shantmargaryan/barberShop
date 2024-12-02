@@ -271,8 +271,79 @@
         },
         "VisitUs": {
             "title": "visit us",
-            "address":"7265 Queen Lane Wethersfield, CT 06109",
-            "openHours":"Mon – sat : 7:00am – 8:00pm Sunday : Closed"
+            "address": "7265 Queen Lane Wethersfield, CT 06109",
+            "openHours": "Mon – sat : 7:00am – 8:00pm Sunday : Closed"
         }
+    },
+    "AboutHero": {
+        "background": "img/AboutHeroBg.jpg",
+        "title": "About"
+    },
+    "OurStory": {
+        "subtitle": "our story",
+        "title": "Redefining the barbershop experience",
+        "Years": [
+            {
+                "id": 1,
+                "year": "1987"
+            },
+            {
+                "id": 2,
+                "year": "2005"
+            }
+        ],
+        "Posts": [
+            {
+                "id": 1,
+                "text": "Since the opening of Barbershop in Lisbon in 2014, its been dedicated to preserving the art of traditional men’s grooming."
+            },
+            {
+                "id": 2,
+                "text": "Specialized in classic cuts inspired by the 1920s to1950s.Barbero was born out of passion. The passion of being a barber but doing it the right way."
+            }
+        ],
+        "ImgBox": [
+            {
+                "id": 1,
+                "img": "img/OurStoreImg1.jpg"
+            },
+            {
+                "id": 2,
+                "img": "img/OurStoreImg2.jpg"
+            }
+        ],
+        "Since": "Since",
+        "Sinceyear": "1987"
+    },
+    "WhyUs":{
+        "subtitle": "why us",
+        "title": "mordern & professional barber studio",
+        "text":"Specialized in classic cuts inspired by the 1920s to 1950s.Barbero was born out of passion. The passion of being a barber but doing it the right way.",
+        "List": [
+            {
+                "id": 1,
+                "icon": "img/svg/FREECoffee.svg",
+                "title": "Free Coffee",
+                "text": "You will always be offered a cup of coffee or a glass of soda"
+            },
+            {
+                "id": 2,
+                "icon": "img/svg/ServiceGuarantee.svg",
+                "title": "Service Guarantee",
+                "text": "At Barbero you’re not just get-ting a service, you’re getting an experience."
+            },
+            {
+                "id": 3,
+                "icon": "img/svg/Towel.svg",
+                "title": "Hot Towel Finish",
+                "text": "A refreshing beverage of your choice, and a hot towel finish – you’ll never want to leave"
+            },
+            {
+                "id": 4,
+                "icon": "img/svg/Experiences.svg",
+                "title": "Best Experiences",
+                "text": "Three signature treatments that will ensure that a gentleman leaves our barbershop perfectly"
+            }
+        ]
     }
 }

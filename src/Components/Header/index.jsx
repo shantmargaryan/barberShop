@@ -45,7 +45,7 @@ function Header() {
             headerPaddingRight={paddingRight}
             navIsOpen={navIsOpen}
         >
-            <Overlay/>
+            <Overlay />
             <HeaderContainer>
                 <Burger open={navIsOpen}
                     onClick={() => {
@@ -75,6 +75,7 @@ function Header() {
                                         isColor={activeLink !== undefined && activeLink.link === obj.link}
                                         onClick={() => {
                                             setNavIsOpen(false)
+                                            setIsHide()
                                         }}>
                                         {obj.text}
                                     </HeaderLink>

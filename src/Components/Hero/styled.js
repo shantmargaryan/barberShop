@@ -2,15 +2,13 @@ import styled from "styled-components";
 import { Section, Container, HeroTitle, Text } from "../../styled/mixStyle";
 import { ButtonReset, ListReset, LinkReset } from "../../styled/reset";
 
-export const HeroSection = styled.section`
-${Section}
+export const HeroSection = styled(Section)`
 position: relative;
 padding-block-end: 35rem;
 margin-block-end: 10rem;
 `
 
-export const HeroContainer = styled.div`
-${Container}
+export const HeroContainer = styled(Container)`
 display: flex;
 flex-direction: column;
 align-items: center;

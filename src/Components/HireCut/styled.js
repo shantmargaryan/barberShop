@@ -3,7 +3,7 @@ import { Section, Title } from "../../styled/mixStyle";
 import { ListReset, ReactLink } from "../../styled/reset";
 
 
-export const HireCutSection = styled.section`
+export const HireCutSection = styled(Section)`
 ${Section}
 `
 

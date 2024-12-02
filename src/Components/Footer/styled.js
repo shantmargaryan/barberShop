@@ -6,8 +6,7 @@ export const FooterSection = styled.footer`
 padding-block-start: 10%;
 `
 
-export const FooterContainer = styled.div`
-${Container}
+export const FooterContainer = styled(Container)`
 display: flex;
 align-items: center;
 justify-content: center;

@@ -2,15 +2,13 @@ import styled from "styled-components";
 import { Section, Container, Subtitle, Title, Text } from "../../styled/mixStyle";
 
 
-export const ClientsSection = styled.section`
-${Section}
+export const ClientsSection = styled(Section)`
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 `
 
-export const ClientsContainer = styled.div`
-${Container}
+export const ClientsContainer = styled(Container)`
 text-align: center;
 
 & .swiper-button-prev,

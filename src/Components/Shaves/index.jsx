@@ -4,7 +4,7 @@ import useSWR from "swr"
 import { fetcher } from "../../Helpers/fetcher"
 function Shaves() {
 
-    const { data, error } = useSWR("http://localhost:3000/Services", fetcher)
+    const { data, error } = useSWR("https://intermediate-dashing-turquoise.glitch.me/Services", fetcher)
     if (error) return <div>Failed to load</div>
 
     return (

@@ -4,7 +4,7 @@ import "swiper/css";
 import useSwr from "swr"
 import { fetcher } from "../../Helpers/fetcher"
 function Haircuts() {
-    const { data, error } = useSwr("http://localhost:3000/HireCutsImg", fetcher)
+    const { data, error } = useSWR("https://intermediate-dashing-turquoise.glitch.me/HireCutsImg", fetcher)
     if (error) return <div>failed to load</div>
 
     return (

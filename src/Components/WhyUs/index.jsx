@@ -4,7 +4,7 @@ import useSWR from "swr"
 import { fetcher } from "../../Helpers/fetcher"
 function WhyUs() {
 
-    const { data, error } = useSWR("http://localhost:3000/WhyUs", fetcher)
+    const { data, error } = useSWR("https://intermediate-dashing-turquoise.glitch.me/WhyUs", fetcher)
     if (error) return <div>failed to load</div>
 
     return (

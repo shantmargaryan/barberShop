@@ -15,7 +15,7 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 
 function Clients() {
-    const { data, error } = useSWR("http://localhost:3000/ClientsSay", fetcher)
+    const { data, error } = useSWR("https://intermediate-dashing-turquoise.glitch.me/ClientsSay", fetcher)
     if (error) return <div>failed to load</div>
 
     return (

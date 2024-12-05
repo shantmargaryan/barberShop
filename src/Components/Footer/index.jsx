@@ -3,7 +3,7 @@ import useSWR from "swr"
 import { fetcher } from "../../Helpers/fetcher"
 import Logo from "../Logo"
 function Footer() {
-    const { data, error } = useSWR("http://localhost:3000/Footer", fetcher)
+    const { data, error } = useSWR("https://intermediate-dashing-turquoise.glitch.me/Footer", fetcher)
     if (error) return <div>failed to load</div>
 
     return (

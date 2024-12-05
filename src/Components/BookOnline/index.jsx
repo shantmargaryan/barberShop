@@ -9,7 +9,7 @@ function BookOnline() {
     const { open, close } = useMeetingForm()
     const { setIsShow } = useOverlay()
 
-    const { data, error } = useSWR("http://localhost:3000/BookOnline", fetcher)
+    const { data, error } = useSWR("https://intermediate-dashing-turquoise.glitch.me/BookOnline", fetcher)
     if (error) return <div>failed to load</div>
 
     return (

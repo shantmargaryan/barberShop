@@ -15,7 +15,7 @@ import useSWR from "swr"
 import { fetcher } from "../../Helpers/fetcher"
 function PricingTabs() {
     const [tabButton, setTabButton] = useState(0)
-    const { data, error } = useSWR("http://localhost:3000/Pricing", fetcher)
+    const { data, error } = useSWR("https://intermediate-dashing-turquoise.glitch.me/Pricing", fetcher)
     if (error) return <div>failed to load</div>
 
 

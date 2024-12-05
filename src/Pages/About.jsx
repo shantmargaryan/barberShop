@@ -6,7 +6,7 @@ import BookOnline from "../Components/BookOnline";
 import useSWR from "swr"
 import { fetcher } from "../Helpers/fetcher"
 function About() {
-    const { data, error } = useSWR("http://localhost:3000/AboutHero", fetcher)
+    const { data, error } = useSWR("https://intermediate-dashing-turquoise.glitch.me/AboutHero", fetcher)
     if (error) return <div>Failed to load</div>
     return (
         <>

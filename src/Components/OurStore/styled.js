@@ -33,7 +33,6 @@ margin-block-end: 50px;
 export const TabsStyled = styled(Tabs)`
 display: flex;
 flex-wrap: wrap;
-gap: 40px;
 `
 
 export const TabListStyled = styled(TabList)`
@@ -41,6 +40,7 @@ ${ListReset}
 display: flex;
 flex-direction: column;
 gap: 15px;
+margin-inline-end: 20px;
 `
 
 export const TabButton = styled.button`
@@ -48,7 +48,7 @@ ${ButtonReset}
 color: #999;
 font: 400 1.25rem / 1rem "Karantina";
 letter-spacing: 0.375rem;
-color: ${({ tabButton }) => tabButton ? ({ theme }) => theme.colors.blackColor : "#999"};
+color: ${({ tabButton, theme }) => tabButton ? theme.colors.blackColor : "#999"};
 
 &::after {
     content: "";

@@ -10,7 +10,7 @@ import {
 import useSWR from "swr"
 import { fetcher } from "../../Helpers/fetcher"
 function HireCut() {
-    const { data, error } = useSWR("https://intermediate-dashing-turquoise.glitch.me/HireCut", fetcher)
+    const { data, error } = useSWR(`${import.meta.env.VITE_API_URL}/HireCut`, fetcher)
     if (error) return <div>failed to load</div>
 
     return (

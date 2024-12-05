@@ -21,7 +21,7 @@ import useOverlay from "../../store/useOverlay"
 function Hero() {
     const { open, close } = useMeetingForm()
     const { setIsShow } = useOverlay()
-    const { data, error } = useSWR("https://intermediate-dashing-turquoise.glitch.me/Hero", fetcher)
+    const { data, error } = useSWR(`${import.meta.env.VITE_API_URL}/Hero`, fetcher)
     if (error) return <div>failed to load</div>
 
     return (

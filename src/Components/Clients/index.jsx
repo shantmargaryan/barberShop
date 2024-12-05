@@ -15,7 +15,7 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 
 function Clients() {
-    const { data, error } = useSWR("https://intermediate-dashing-turquoise.glitch.me/ClientsSay", fetcher)
+    const { data, error } = useSWR(`${import.meta.env.VITE_API_URL}/ClientsSay`, fetcher)
     if (error) return <div>failed to load</div>
 
     return (

@@ -9,7 +9,7 @@ function BookOnline() {
     const { open, close } = useMeetingForm()
     const { setIsShow } = useOverlay()
 
-    const { data, error } = useSWR("https://intermediate-dashing-turquoise.glitch.me/BookOnline", fetcher)
+    const { data, error } = useSWR(`${import.meta.env.VITE_API_URL}/BookOnline`, fetcher)
     if (error) return <div>failed to load</div>
 
     return (

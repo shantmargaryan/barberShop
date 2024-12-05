@@ -3,7 +3,7 @@ import useSWR from "swr"
 import { fetcher } from "../../Helpers/fetcher"
 import Logo from "../Logo"
 function Footer() {
-    const { data, error } = useSWR("https://intermediate-dashing-turquoise.glitch.me/Footer", fetcher)
+    const { data, error } = useSWR(`${import.meta.env.VITE_API_URL}/Footer`, fetcher)
     if (error) return <div>failed to load</div>
 
     return (

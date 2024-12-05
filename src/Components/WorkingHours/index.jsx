@@ -16,7 +16,7 @@ import useSWR from "swr"
 import { fetcher } from "../../Helpers/fetcher"
 function WorkingHours() {
 
-    const { data, error } = useSWR("https://intermediate-dashing-turquoise.glitch.me/WorkingHours", fetcher)
+    const { data, error } = useSWR(`${import.meta.env.VITE_API_URL}/WorkingHours`, fetcher)
     if (error) return <div>failed to load</div>
 
     return (

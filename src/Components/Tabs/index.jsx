@@ -15,7 +15,7 @@ import useSWR from "swr"
 import { fetcher } from "../../Helpers/fetcher"
 function PricingTabs() {
     const [tabButton, setTabButton] = useState(0)
-    const { data, error } = useSWR("https://intermediate-dashing-turquoise.glitch.me/Pricing", fetcher)
+    const { data, error } = useSWR(`${import.meta.env.VITE_API_URL}/Pricing`, fetcher)
     if (error) return <div>failed to load</div>
 
 

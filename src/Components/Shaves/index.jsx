@@ -4,7 +4,7 @@ import useSWR from "swr"
 import { fetcher } from "../../Helpers/fetcher"
 function Shaves() {
 
-    const { data, error } = useSWR("https://intermediate-dashing-turquoise.glitch.me/Services", fetcher)
+    const { data, error } = useSWR(`${import.meta.env.VITE_API_URL}/Services`, fetcher)
     if (error) return <div>Failed to load</div>
 
     return (

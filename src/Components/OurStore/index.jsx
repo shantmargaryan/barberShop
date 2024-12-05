@@ -20,7 +20,7 @@ import { Tab, TabPanel } from 'react-tabs';
 function OurStore() {
     const [activeTab, setActiveTab] = useState(1);
 
-    const { data, error } = useSWR("https://intermediate-dashing-turquoise.glitch.me/OurStory", fetcher)
+    const { data, error } = useSWR(`${import.meta.env.VITE_API_URL}/OurStory`, fetcher)
     if (error) return <div>failed to load</div>
 
     if (!data?.Years || data?.Years.length === 0) return null;

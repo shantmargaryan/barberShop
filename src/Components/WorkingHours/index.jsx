@@ -22,7 +22,7 @@ function WorkingHours() {
     return (
         <WorkingHoursSection style={{ backgroundImage: `url(${data?.background})` }}>
             <WorkingHoursContainer>
-                <WorkingHoursImg src={data?.img} alt="salon" />
+                <WorkingHoursImg src={data?.img} alt="salon" loading="lazy" />
                 <Content>
                     <BeforeTitle>{data?.subtitle}</BeforeTitle>
                     <WorkingHoursTitle>

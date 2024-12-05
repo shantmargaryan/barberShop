@@ -3,6 +3,7 @@ import { Section, Container, Subtitle, Title, Text } from "../../styled/mixStyle
 
 
 export const ClientsSection = styled(Section)`
+padding-block: 7% ;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;

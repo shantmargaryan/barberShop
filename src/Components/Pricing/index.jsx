@@ -27,7 +27,7 @@ function Pricing() {
                             data?.title
                         }
                     </PricingTitle>
-                    <PricingImg src={data?.img} alt="" />
+                    <PricingImg src={data?.img} alt="" loading="lazy" />
                 </div>
                 <PricingTabs/>
             </PricingContainer>

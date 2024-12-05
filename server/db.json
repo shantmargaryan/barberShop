@@ -315,10 +315,10 @@
         "Since": "Since",
         "Sinceyear": "1987"
     },
-    "WhyUs":{
+    "WhyUs": {
         "subtitle": "why us",
         "title": "mordern & professional barber studio",
-        "text":"Specialized in classic cuts inspired by the 1920s to 1950s.Barbero was born out of passion. The passion of being a barber but doing it the right way.",
+        "text": "Specialized in classic cuts inspired by the 1920s to 1950s.Barbero was born out of passion. The passion of being a barber but doing it the right way.",
         "List": [
             {
                 "id": 1,
@@ -345,5 +345,124 @@
                 "text": "Three signature treatments that will ensure that a gentleman leaves our barbershop perfectly"
             }
         ]
+    },
+    "ServicesHero": {
+        "background": "img/ServicesHeroBg.jpg",
+        "title": "Services"
+    },
+    "Services": {
+        "cutsTitle": "Cuts",
+        "Cuts": [
+            {
+                "id": 1,
+                "img": "img/CutsImg1.jpg",
+                "smallTitle": "Classic Cut",
+                "price": "15",
+                "Text": "Style cut, hairline tidy up & hot towel finish."
+            },
+            {
+                "id": 2,
+                "img": "img/CutsImg2.jpg",
+                "smallTitle": "Buzz Cut",
+                "price": "17",
+                "Text": "All over clipper cut, hairline tidy up & hot towel finish."
+            },
+            {
+                "id": 3,
+                "img": "img/CutsImg3.jpg",
+                "smallTitle": "To Be Man",
+                "price": "21",
+                "Text": "Kids style cut, hairline tidy up & hot towel finish."
+            },
+            {
+                "id": 4,
+                "img": "img/CutsImg4.jpg",
+                "smallTitle": "Cut And Wash",
+                "price": "25",
+                "Text": "Styled to your needs plus a trademark barber finish."
+            }
+        ],
+        "shavesTitle": "Shaves",
+        "Shaves": [
+            {
+                "id": 1,
+                "img": "img/ShavesImg1.jpg",
+                "smallTitle": "Classic Shave",
+                "price": "15",
+                "Text": "Styled to your needs plus a trademark barber finish."
+            },
+            {
+                "id": 2,
+                "img": "img/ShavesImg2.jpg",
+                "smallTitle": "Deluxe Shave",
+                "price": "17",
+                "Text": "All over clipper cut, hairline tidy up & hot towel finish."
+            }
+        ],
+        "Item": {
+            "background": "img/ShavesImg3.jpg",
+            "smallTitle": "Shiner Shaves",
+            "price": "21",
+            "Text": "Styled to your needs plus a trademark barber finish."
+        },
+        "BeardStylingTitle": "Beard styling",
+        "BeardStylingItem": {
+            "background": "img/BeardStylingImg1.jpg",
+            "smallTitle": "Shiner Shaves",
+            "price": "17",
+            "Text": "Styled to your needs plus a trademark barber finish."
+        },
+        "BeardStyling": [
+            {
+                "id": 2,
+                "img": "img/BeardStylingImg2.jpg",
+                "smallTitle": "Deluxe Shave",
+                "price": "17",
+                "Text": "All over clipper cut, hairline tidy up & hot towel finish."
+            },
+            {
+                "id": 3,
+                "img": "img/BeardStylingImg3.jpg",
+                "smallTitle": "Classic Shave",
+                "price": "15",
+                "Text": "Kids style cut, hairline tidy up & hot towel finish"
+            }
+        ],
+        "BarberSpaTitle": "Barber-Spa",
+        "BarberSpa": [
+            {
+                "id": 1,
+                "img": "img/BarberSpaImg1.jpg",
+                "smallTitle": "Brow Wax",
+                "price": "15",
+                "Text": "Style cut, hairline tidy up & hot towel finish."
+            },
+            {
+                "id": 2,
+                "img": "img/BarberSpaImg2.jpg",
+                "smallTitle": "Dude Facial",
+                "price": "17",
+                "Text": "All over clipper cut, hairline tidy up & hot towel finish."
+            },
+            {
+                "id": 3,
+                "img": "img/BarberSpaImg3.jpg",
+                "smallTitle": "Colour Camo",
+                "price": "21",
+                "Text": "Kids style cut, hairline tidy up & hot towel finish."
+            },
+            {
+                "id": 4,
+                "img": "img/BarberSpaImg4.jpg",
+                "smallTitle": "Hot Towel",
+                "price": "25",
+                "Text": "Styled to your needs plus a trademark barber finish."
+            }
+        ]
+    },
+    "BookOnline": {
+        "title": "book online",
+        "background": "img/BookOnlineBg.jpg",
+        "text":"get 20% off on your first online appointment"
     }
 }

@@ -6,7 +6,7 @@ import { Close } from "@mui/icons-material";
 export const Form = styled.form`
     position: fixed;
     top: 10em;
-    z-index: 10;
+    z-index: 11;
     display: flex;
     flex-direction: column;
     gap: 15px;

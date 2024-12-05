@@ -7,6 +7,7 @@ import Footer from './Components/Footer'
 function App() {
   const Home = lazy(() => import('./Pages/Home'))
   const About = lazy(() => import('./Pages/About'))
+  const Services = lazy(() => import('./Pages/Services'))
 
 
   return (
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="About" element={<About />} />
+            <Route path="Services" element={<Services />} />
             <Route path="*" element={<h1>404</h1>} />
           </Routes>
         </Suspense>

@@ -8,8 +8,11 @@ import {
     Dotted,
     Subtitle
 } from "./styled"
-
+import { useLocation } from 'react-router-dom';
 function UniversalHero({ background = "", title = "" }) {
+
+    const { pathname } = useLocation();
+    const location = pathname.split("/")[1];
 
     return (
         <HeroSection style={{ backgroundImage: `url(${background})` }}>
@@ -23,7 +26,7 @@ function UniversalHero({ background = "", title = "" }) {
                     </Link>
                     <Dotted></Dotted>
                     <Subtitle>
-                        About
+                        {location}
                     </Subtitle>
                 </Linksbox>
             </HeroContainer>

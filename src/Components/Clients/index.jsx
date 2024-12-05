@@ -7,7 +7,6 @@ import {
     Name,
     Exprience,
 } from "./styled"
-import Haircuts from "../Haircuts";
 import useSWR from "swr"
 import { fetcher } from "../../Helpers/fetcher"
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -61,7 +60,6 @@ function Clients() {
                     </Swiper>
                 </ClientsContainer>
             </ClientsSection>
-            <Haircuts/>
         </>
     )
 }

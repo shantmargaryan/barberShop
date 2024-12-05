@@ -14,7 +14,7 @@ function Haircuts() {
             >
                 {data?.map((item, index) => (
                     <SwiperSlide key={index}>
-                        <HireCutImg src={item?.img} alt="" />
+                        <HireCutImg src={item?.img} alt="" loading="lazy" />
                     </SwiperSlide>
                 ))}
             </Swiper>

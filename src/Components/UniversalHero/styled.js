@@ -32,7 +32,7 @@ gap: 10px;
 width: 100%;
 margin-block-end: 15px;
 padding-block-start: 15px;
-border-top: 0.1rem solid #444;
+border-top: 1px solid ${({ theme }) => theme.colors.whiteColor};
 `
 
 export const Link = styled(ReactLink)`

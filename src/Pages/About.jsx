@@ -2,6 +2,7 @@ import UniversalHero from "../Components/UniversalHero"
 import OurStore from "../Components/OurStore"
 import WhyUs from "../Components/WhyUs"
 import Clients from "../Components/Clients"
+import BookOnline from "../Components/BookOnline";
 import useSWR from "swr"
 import { fetcher } from "../Helpers/fetcher"
 function About() {
@@ -16,6 +17,7 @@ function About() {
             <OurStore />
             <WhyUs/>
             <Clients/>
+            <BookOnline/>
         </>
     )
 }

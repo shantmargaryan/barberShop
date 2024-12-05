@@ -4,7 +4,7 @@ import { ListReset, Img } from "../../styled/reset";
 
 
 export const WhyUsSection = styled(Section)`
-padding: 30px 0 7% 0;
+padding-block: 7%;
 `
 
 export const Content = styled.div`

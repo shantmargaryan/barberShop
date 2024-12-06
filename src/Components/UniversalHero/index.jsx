@@ -12,7 +12,7 @@ import { useLocation } from 'react-router-dom';
 function UniversalHero({ background = "", title = "" }) {
 
     const { pathname } = useLocation();
-    const location = pathname.split("/")[1];
+    const location = pathname.split("/");
 
     return (
         <HeroSection style={{ backgroundImage: `url(${background})` }}>

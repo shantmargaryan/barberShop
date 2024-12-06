@@ -464,5 +464,9 @@
         "title": "book online",
         "background": "img/BookOnlineBg.jpg",
         "text":"get 20% off on your first online appointment"
+    },
+    "ContactHero": {
+        "background": "img/ContactHeroBg.jpg",
+        "title": "Contact"
     }
 }

@@ -463,10 +463,38 @@
     "BookOnline": {
         "title": "book online",
         "background": "img/BookOnlineBg.jpg",
-        "text":"get 20% off on your first online appointment"
+        "text": "get 20% off on your first online appointment"
     },
     "ContactHero": {
         "background": "img/ContactHeroBg.jpg",
         "title": "Contact"
+    },
+    "ContactInfo": [
+        {
+            "id": 1,
+            "title": "our location",
+            "text": "9779 Woodside Drive Granger, IN 46530"
+        },
+        {
+            "id": 2,
+            "title": "booking number",
+            "phonenumber": "+844-946 888 3355"
+        },
+        {
+            "id": 3,
+            "title": "opening hours",
+            "openHours": "Mon – Sat: 10AM – 7PM Sun: 11AM – 8PM"
+        }
+    ],
+    "ContactForm": {
+        "title": "drop us a line",
+        "text": "Want to reach out? We’d love to hear from you!"
+    },
+    "Error": {
+        "title": "Error 404",
+        "background": "img/ContactHeroBg.jpg",
+        "img": "img/HomePricingImg.png",
+        "smallTitle": "Oops! that link is broken.",
+        "text": "Page does not exist or some other error occured. Go to our"
     }
 }

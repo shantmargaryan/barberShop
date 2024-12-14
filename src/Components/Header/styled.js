@@ -24,7 +24,7 @@ export const NavBar = styled.nav`
     position: fixed;
     top: 0;
     left: ${({ navIsOpen }) => navIsOpen ? "0" : "-100%"};
-    z-index: 10;
+    z-index: 12;
     display: flex;
     flex-direction: column;
     gap: 15px;

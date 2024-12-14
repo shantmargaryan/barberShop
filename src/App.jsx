@@ -9,6 +9,7 @@ function App() {
   const About = lazy(() => import('./Pages/About'))
   const Services = lazy(() => import('./Pages/Services'))
   const Contact = lazy(() => import('./Pages/Contect'))
+  const Error404 = lazy(() => import('./Pages/Error404'))
 
 
   return (
@@ -21,7 +22,7 @@ function App() {
             <Route path="About" element={<About />} />
             <Route path="Services" element={<Services />} />
             <Route path="Contact" element={<Contact />} />
-            <Route path="*" element={<h1>404</h1>} />
+            <Route path="*" element={<Error404 />} />
           </Routes>
         </Suspense>
       </Main>

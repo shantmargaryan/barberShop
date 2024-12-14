@@ -11,7 +11,7 @@ export const OverlayCurrent = styled.div`
     backdrop-filter: blur(5px);
     opacity: ${({ show }) => show ? "1" : "0"};
     visibility: ${({ show }) => show ? "visible" : "hidden"};
-    z-index: 9;
+    z-index: 11;
     transition: opacity .4s ease-in-out,
     visibility .4s ease-in-out,
     backdrop-filter .4s ease-in-out;
